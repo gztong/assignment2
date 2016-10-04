@@ -1,0 +1,42 @@
+body, html {
+  font-size: 14px;
+  font-family: "Helvetica Neue";
+}
+
+.title{
+  color: gray;
+}
+
+.container {
+  margin-top: 50px; 
+  display: block;
+  text-align: center;
+}
+
+.contactForm {
+  width: 200px;
+  margin: auto;
+  display: inline-block;
+  text-align: left;
+}
+
+.form-input {
+  height: 30px;
+  margin: 4px;
+  border-radius: 0;
+  width: 200px;
+}
+
+#messageInput {
+  height: 130px;
+}
+
+#validation {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.error-message {
+  position: absolute;
+  margin: auto;
+}

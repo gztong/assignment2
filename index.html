@@ -1,0 +1,53 @@
+<!-- 
+  Assignment #2 - REMEMBER TO FOLLOW THE STYLE GUIDE
+
+  1. Fork your own version of this repo
+  2. Create a branch named <your-name>-assignment2 (in my case it would be mattbowytz-assignment1)
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 2</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>  
+  <script src="js/app.js"></script>
+</head>
+<body>
+
+
+  <div class="container">
+    <div class="title">
+      <h3>
+        Contact Me
+      </h3>
+    </div>
+    <form id="contactForm" method="post" role="form" action="javascript:formHanlder()">
+      <div>
+        <input id="nameInput" type="text" class="form-input" placeholder="Name">
+        <span id="nameError" class="error-message"> </span>
+      </div>
+      <div>
+        <input id="emailInput"  type="email" class="form-input" placeholder="Email">
+        <span id="emailError" class="error-message"> </span>
+      </div>
+      <div>
+        <input id="subjectInput" type="text" class="form-input" placeholder="Subject">
+        <span id="subjectError" class="error-message"> </span>
+      </div>
+      <div>
+        <textarea id="messageInput" class="form-input" rows="6" placeholder="Message"></textarea>
+        <span id="messageError" class="error-message"> </span>
+      </div>
+      <div>
+        <input name="Submit" type="submit" value="SEND MESSAGE" class="form-input">
+
+      </div>
+    </form>
+    <div id="validation">
+    </div>
+    
+  </div>
+</body>
+</html>
