@@ -1,9 +1,7 @@
-
 $(document).ready(function(){
 
   $("#contactForm").submit(function( event ) {
     $('.error-message').text('');
-
 
     if ( $( "#nameInput" ).val() === "" ) {
       $( "#nameError" ).text( "Empty name is not valid!" ).show();
@@ -22,7 +20,6 @@ $(document).ready(function(){
       $( "#emailError" ).text( "Your email: " + email + " is not valid!" ).show();
       event.preventDefault();
     }   
-
   });
 });
 
